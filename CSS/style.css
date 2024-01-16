@@ -135,7 +135,8 @@ body {
     margin: 50px 0px;
     justify-content: space-between;
 }
-.popular-content{
+
+.popular-content {
     width: 580px;
 }
 
@@ -148,6 +149,41 @@ body {
 
 .popular-tour-section-container .p {
     color: rgba(19, 19, 24, 0.70);
+}
+
+/* Here is destination section started */
+
+.destination-section {
+    gap: 50px;
+    text-align: center;
+
+}
+
+.destination-section p {
+    padding: 0px 100px;
+}
+
+.image-container {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.centered-text-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.middle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
 }
 
 /* Responsive part for mobile */
@@ -189,8 +225,19 @@ body {
         flex-shrink: 0;
         margin: 50px;
     }
-    .popular-content{
+
+    .popular-content {
         width: 335px;
+    }
+
+    .image-container {
+        flex-direction: column;
+    }
+
+    .image-container img {
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
     }
 
 
