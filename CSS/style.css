@@ -1,0 +1,61 @@
+/* Common fonts */
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Common things which I need to use repeatedly */
+.color-orange{
+    color: #FF5400;
+}
+
+.title-text {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+
+.name-and-logo {
+    display: flex;
+    align-items: center;
+}
+
+.name-and-logo img {
+    width: 48px;
+    height: 56px;
+    flex-shrink: 0;
+}
+
+.name-and-logo h4 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 30px;
+}
+
+.nav-and-title-sec{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item{
+    width: 50%;
+}
+
+.nav-item> ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+.nav-item ul li a{
+    text-decoration: none;
+}
