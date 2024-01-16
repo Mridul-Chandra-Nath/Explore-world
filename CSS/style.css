@@ -279,6 +279,8 @@ body {
 
 .icon-section{
     display: flex;
+    gap: 20px;
+    font-size: 40px;
 }
 
 
